@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Shop Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Delicious Cakes Menu</h1>
+        <!-- <img src="images/cakeheader bg.jpg" alt=" "> -->
+    </header>
+    
+
+
+
+    <section class="menu">
+        <div class="menu-item">
+            <img src="images/choco cake.jpg" alt="Chocolate Cake">
+            <h3>Chocolate Cake</h3>
+            <p>Rich and creamy chocolate delight.</p>
+            <span>$200</span><br>
+            <button onclick="addToCart('Chocolate Cake', 200)">Add to Cart</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="images/strawberry cake.jpg" alt="Strawberry Cake">
+            <h3>Strawberry Cake</h3>
+            <p>Sweet and fresh strawberry flavor.</p>
+            <span>$350</span><br>
+            <button onclick="addToCart('Strawberry Cake', 350)">Add to Cart</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="images/vannila cakes.jpg" alt="Vanilla Cake">
+            <h3>Vanilla Cake</h3>
+            <p>Classic and smooth vanilla taste.</p>
+            <span>$250</span><br>
+            <button onclick="addToCart('Vanilla Cake', 250)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/ice cakes.jpg" alt="Ice cake">
+            <h3>Ice cake</h3>
+            <p>Classic and smooth vanilla taste.</p>
+            <span>$450</span><br>
+            <button onclick="addToCart('Ice Cake', 450)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/mango cakes11.jpg" alt="Mango Vanilla Ice Cake">
+            <h3>Mango Vanilla Ice Cake</h3>
+            <p>Classic and smooth Mango <br> 
+                    <br>vanilla taste.</p>
+            <span>$350</span><br>
+            <button onclick="addToCart('Mango Vanilla Ice cake', 350)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/Pink-Marshmallow-and-Fruit-Cake2.jpg" alt="Fruit Cake">
+            <h3>Marshmallow and fruit Cake</h3>
+            <p>Classic and smooth fruity taste.</p>
+            <span>$500</span><br>
+            <button onclick="addToCart('Marmallow fruit Cake', 500)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/berrydripcake.jpg" alt="Berry Drip cake">
+            <h3>Berry Drip cake</h3>
+            <p>Classic and berry fruit taste.</p>
+            <span>$300</span><br>
+            <button onclick="addToCart('Berry Drip cake', 300)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/browny cake.webp" alt="Browny cake">
+            <h3>Browny Cake</h3>
+            <p>Classic and smooth spongy taste.</p>
+            <span>$300</span><br>
+            <button onclick="addToCart('Browny cake', 300)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/blueberry cake eggless.jpg" alt="Vanilla Cake">
+            <h3>Blueberry eggless cake</h3>
+            <p>Classic and Berry fruit taste.</p>
+            <span>$200</span><br>
+            <button onclick="addToCart('Blueberry cake ', 200)">Add to Cart</button>
+        </div>
+        
+        <div class="menu-item">
+            <img src="images/blackforest cake.jpg" alt="blackforest cake">
+            <h3>Blackforest Cake</h3>
+            <p>Classic and smooth also spongy<br>
+               <br> and also juicy.</p>
+            <span>$400</span><br>
+            <button onclick="addToCart('Blackforest cake', 400)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/red velvet22.webp" alt="Red velvet cake">
+            <h3>Red velvet cake</h3>
+            <p>Classic and smooth spongy<br>
+                <br>and also juicy.</p>
+            <span>$640</span><br>
+            <button onclick="addToCart('Ice cake', 640)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/strawcheese2.jpg" alt="Strawberry cheeseCake">
+            <h3>Strawberry cheese Cake</h3>
+            <p>Classic and smooth <br>
+                <br> strawberry with cheese taste.</p>
+            <span>$500</span><br>
+            <button onclick="addToCart('Strawberry cheese Cake', 500)">Add to Cart</button>
+        </div>
+    </section>
+
+    <section class="cart">
+        <h2>Cart</h2>
+        <ul id="cart-items"></ul>
+        <p id="total-price">Total: $0</p>
+    </section>
+
+    <script src="js/cake.js"></script>
+</body>
+</html>
